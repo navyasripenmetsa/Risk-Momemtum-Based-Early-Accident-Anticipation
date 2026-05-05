@@ -283,7 +283,7 @@ python Risk_Momentum_Visualization.py \
 Two representative clips are included — one accident and one normal driving scenario — to demonstrate how the Risk Momentum dashboard behaves in each case.
 
 ### 🔴 Accident Clip — Early Alarm Triggered (`000003.mp4`)
-<video src="https://github.com/user-attachments/assets/7062f671-abc4-466b-b671-c554b1ec878d" controls width="800"></video>
+![Accident Clip](Test_Positive_Visualization-ezgif.com-video-to-gif-converter.gif)
 
 **What you'll see in the accident dashboard:**
 - The **red dashed R*(t)** curve rises above the **blue solid R(t)** — momentum lifts it toward the threshold earlier
@@ -293,7 +293,7 @@ Two representative clips are included — one accident and one normal driving sc
 - M2 triggers the alarm **~0.4–0.6 s earlier** than the UString baseline
 
 ### 🟢 Normal Clip — No False Alarm (`000004.mp4`)
-<video src="https://github.com/user-attachments/assets/add0f816-b0b7-47c4-9a2e-7a436af8d864" controls width="800"></video>
+![Normal Clip](Test_Negative_Visualization-ezgif.com-video-to-gif-converter.gif)
 
 **What you'll see in the normal dashboard:**
 - R(t) stays well below 0.5 throughout (e.g., R(t) ≈ 0.42 at frame 37/50)
