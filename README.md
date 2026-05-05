@@ -140,7 +140,7 @@ We use the **Car Crash Dataset (CCD)**, introduced alongside UString.
 ## 📁 Project Structure
 
 ```
-CV_FI.../
+Project/
 ├── test_videos/
 │   ├── test_positive/          # Raw accident .mp4 clips (for visualization)
 │   └── test_negative/          # Raw normal driving .mp4 clips (for visualization)
@@ -309,14 +309,7 @@ Two representative clips are included — one accident and one normal driving sc
 - R(t) stays well below 0.5 throughout (e.g., R(t) ≈ 0.42 at frame 37/50)
 - M⁺(t) remains near zero — no momentum injection occurs, no threshold lowering
 - Both EMA curves oscillate symmetrically with no upward trend
-- No alarm is triggered — the system correctly identifies safe driving
-
-> **Tip:** To convert your `.mp4` output to a GitHub-embeddable GIF, run:
-> ```bash
-> ffmpeg -i output_accident_003.mp4 -vf "fps=10,scale=800:-1" output_accident_003.gif
-> ffmpeg -i output_normal_004.mp4 -vf "fps=10,scale=800:-1" output_normal_004.gif
-> ```
-> Then embed with `![label](filename.gif)` in the placeholders above.
+- No alarm is triggered — the system correctly identifies safe driving.
 
 ---
 
@@ -331,10 +324,6 @@ For AUC-ROC and Average Precision (which require a single scalar per clip), we u
 ```
 s_clip = Σ wt · R*(t),   where wt = 1 if t < 0.4T, else 3    (normalized)
 ```
-
-### Why this matters for safety
-Recall improvement (54% → 94%) means the system catches **47 out of 50 accident clips** vs only 27 before. In an autonomous driving context, every missed detection is potentially fatal. The increase in false positives (5 → 13) is manageable — a momentary braking response is far preferable to a missed collision.
-
 ---
 
 ## 📚 References
