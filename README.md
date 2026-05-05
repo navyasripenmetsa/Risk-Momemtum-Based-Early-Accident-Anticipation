@@ -20,7 +20,7 @@
 
 ## 🔍 Overview
 
-Traffic accidents claim over **1.35 million lives globally each year**. Early and accurate anticipation of collisions - even by a second or two — can give autonomous systems enough time to brake or steer away.
+Traffic accidents claim over **1.35 million lives globally each year**. Early and accurate anticipation of collisions - even by a second or two - can give autonomous systems enough time to brake or steer away.
 
 This project builds on top of **UString** [Bao et al., MM'20], a state-of-the-art uncertainty-based traffic accident anticipation model, and introduces a novel **training-free post-processing module** called **Risk Momentum**. Rather than simply thresholding the raw per-frame risk score, our method models **how quickly risk is rising** - and uses that signal to trigger alarms earlier.
 
