@@ -1,16 +1,5 @@
 # 🚨 Risk Momentum Based Early Traffic Accident Anticipation
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-orange?style=for-the-badge&logo=pytorch" />
-  <img src="https://img.shields.io/badge/CV-Computer%20Vision-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/IIT%20Jodhpur-CSL7360-red?style=for-the-badge" />
-</p>
-
-> **Group:** Percepta — IIT Jodhpur (CSL7360: Computer Vision)  
-> **Members:** Penmetsa NavyaSri (B23CS1052) · Meejuru Lakshmi Sowmya (B23CM1024) · Jadala Chandana (B23CM1017)
-
----
 
 ## 📌 Table of Contents
 
